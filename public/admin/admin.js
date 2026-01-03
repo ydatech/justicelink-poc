@@ -1,5 +1,5 @@
-// const password = prompt("Enter admin password");
-const password = "pass1234"
+const password = prompt("Enter admin password");
+
 if(!password){
     alert("Access Denied!")
     window.location.href = "/"

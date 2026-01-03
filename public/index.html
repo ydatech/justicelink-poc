@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JusticeLink Intake</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+        <h1>JusticeLink - Eligibility Screener</h1>
+
+        <form id="screenForm">
+            <input placeholder="Client Name" id="name" required/>
+            <input type="number" placeholder="Household Size" id="householdSize" required/>
+            <input type="number" placeholder="Annual Income ($)" id="income" required/>
+            <button type="submit">Check Eligibility</button>
+        </form>
+
+        <h2 id="result"></h2>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>

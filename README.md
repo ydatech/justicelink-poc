@@ -12,7 +12,7 @@ This POC includes:
 - Deployment-ready configuration (Railway)
 
 
-## Setup and Requirement
+## Setup and Requirement (Local Development)
 This project needs Node.js 20+
 
 1. Clone this repository
@@ -21,3 +21,31 @@ git clone https://github.com/ydatech/justicelink-poc.git
 
 cd justicelink-poc
 ```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Copy and configure environment variables `.env`
+```bash
+cp .env.example .env
+```
+Please update `PORT` and `ADMIN_PASSWORD` variables
+
+
+4. Run the app
+```bash
+node server.js
+```
+
+
+## Deploy to Railway
+
+1. Push your clone to your own GitHub repo
+2. Go to https://railway.com
+3. Deploy new project
+4. Choose GitHub repository
+5. SignIn to your GitHub
+6. Choose the repo
+7. Create project

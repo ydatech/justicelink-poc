@@ -48,4 +48,7 @@ node server.js
 4. Choose GitHub repository
 5. SignIn to your GitHub
 6. Choose the repo
-7. Create project
+7. Create project and wait until deployment succeed
+8. Change enviroment variable `ADMIN_PASSWORD`
+9. Setup public networking in Settings tab and generate Domain
+10. Example deployment on Railway can be accessed: [https://justicelink-poc-production.up.railway.app](https://justicelink-poc-production.up.railway.app)
